@@ -9,8 +9,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
-    - name: Use Node.js
-      uses: actions/setup-node@3.6.0
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v3.6.0
     - name: Install Dependencies
       run: npm i
     - name: Build
